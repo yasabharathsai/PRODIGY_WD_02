@@ -1,0 +1,54 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #b3bfce;
+  }
+  footer{
+    margin-top: 9%;
+}
+/* h1{
+    align-items: center;
+    margin-top: 100px;
+} */
+  /* (B) CONTAINER */
+  #stopwatch {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 320px;
+    margin: 200px 500px ;
+    
+  }
+  
+  /* (C) TIME  #sw-time*/
+  #zero {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    background: #443c3c;
+    color: #fff;
+  }
+  
+  /* (D) BUTTONS */
+  #start, #reset {
+    box-sizing: border-box;
+    width: 50%;
+    cursor: pointer;
+    padding: 20px 0;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+  }
+  #reset { background-color: red }
+  #start { background-color: green }
+  body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/24/19/19/rolex-2171960_640.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center center;
+}
